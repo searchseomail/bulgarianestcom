@@ -1,0 +1,595 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форум - Главная страница</title>
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="https://bulgarianest.com/forum/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://bulgarianest.com/forum/css/styles.css">
+        <script>const BASE_URL = "https://bulgarianest.com/forum";</script>
+        <script src="https://bulgarianest.com/forum/js/search.js" defer></script>
+        <script src="https://bulgarianest.com/forum/js/auth.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a href="https://bulgarianest.com/forum/" class="logo">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> BulgarianestForum
+                </a>
+                
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Поиск по темам..." autocomplete="off" class="search-input">
+                    <button class="search-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+
+                <nav class="header-nav">
+                    <a href="/" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> <span class="hidden-mobile">Главная</span></a>
+                    <button onclick="openLogin()" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg> <span class="hidden-mobile">Вход</span></button>
+                    <button onclick="openRegister()" class="btn-primary"><svg class="icon" viewBox="0 0 24 24"><path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Регистрация</button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="layout-container">
+            <main class="main-content">
+                
+    <h1 class="page-title">Последние обсуждения</h1>
+    <div class="post-list">
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/7.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/planiruiu-pokupku-zhilia-v-pamporovo-chto-uchest-pered-investitsiei.html">Планирую покупку жилья в Пампорово - что учесть перед инвестицией?</a></h2>
+                <p class="post-desc">Привет всем! Я сейчас активно изучаю рынок недвижимости в Пампорово. Интересует не только цена, но и общая атмосфера, потенциал роста и инфраструктура. Подскажите, пожалуйста, какие районы лучше всего рассматривать для покупки, если цель - долгосрочное проживание и аренда? Стоит ли смотреть в сторону новостроек или лучше рассмотреть вторичный рынок? Буду очень благодарен за реальный опыт тех, кто уже жил или покупал здесь. Какие подводные камни мне стоит знать о документации и процессе оформления?</p>
+                <div class="tags">
+                    <span class="tag">недвижимость</span><span class="tag">Пампорово</span><span class="tag">Болгария</span><span class="tag">инвестиции</span><span class="tag">покупка жилья</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> SolarFlare</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 03:36</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1449.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-chernomortse-na-chto-obratit-vnimanie-krome-tseny.html">Покупка квартиры в Черноморце: на что обратить внимание, кроме цены?</a></h2>
+                <p class="post-desc">Привет всем! Планирую покупку недвижимости в Черноморце в ближайшие месяцы. Я уже изучил цены на рынке и нашел несколько вариантов, но очень волнуюсь по поводу подводных камней. Подскажите, пожалуйста, кроме самой стоимости, что еще критически важно учесть? Меня интересует юридическая чистота сделки, налоговые обязательства для иностранцев и, может быть, какая инфраструктура в районе сейчас самая развитая. Буду благодарен за любой опыт тех, кто уже покупал жилье в Болгарии.</p>
+                <div class="tags">
+                    <span class="tag">Черноморце</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Покупка</span><span class="tag">Советы</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stalker</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 23.01.2025 18:31</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/586.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-burgase-na-chto-obratit-vnimanie-krome-tseny.html">Покупка квартиры в Бургасе: на что обратить внимание, кроме цены?</a></h2>
+                <p class="post-desc">Планирую покупку недвижимости в Бургасе в ближайшие месяцы. Мне кажется, что я знаю основы, но хотелось бы услышать реальный опыт от тех, кто уже через это прошел. Помимо самой стоимости и расположения, какие подводные камни мне стоит рассмотреть? Особенно интересуют вопросы с документацией, юридической чистотой сделки и какие районы сейчас наиболее перспективны для долгосрочной аренды. Может быть, кто-то знает хороших проверенных риелторов, которые работают с иностранцами? Буду очень благодарен за любые советы.</p>
+                <div class="tags">
+                    <span class="tag">Бургас</span><span class="tag">Недвижимость</span><span class="tag">Покупка</span><span class="tag">Болгария</span><span class="tag">Инвестиции</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> RedAlert</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 14:24</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/37204.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/novichki-kak-luchshe-vsego-nachat-pokupku-nedvizhimosti-v-ispanii-nuzhen-sovet-po-protsessu.html">Новички: как лучше всего начать покупку недвижимости в Испании? Нужен совет по процессу!</a></h2>
+                <p class="post-desc">Планирую переезд и покупку квартиры в Валенсии, но процесс кажется мне очень запутанным. Я не знаю, с чего начать: с поиска агента, с изучения законов или с открытия счета в местном банке. Меня особенно волнует вопрос юридической чистоты сделки и налогов для нерезидентов. Подскажите, пожалуйста, какие шаги самые критичные и стоит ли сразу нанимать юриста, специализирующегося именно на испанском праве? Буду очень благодарен за любой опыт, который вы можете поделиться.</p>
+                <div class="tags">
+                    <span class="tag">Испания</span><span class="tag">Недвижимость</span><span class="tag">Покупка</span><span class="tag">Юридические вопросы</span><span class="tag">Инвестиции</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Raven_X</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 10:20</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1625.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-nedvizhimosti-v-obzore-chto-nuzhno-znat-novichku-investoru.html">Покупка недвижимости в Обзоре: что нужно знать новичку-инвестору?</a></h2>
+                <p class="post-desc">Планирую покупку квартиры или дома в Обзоре, Болгария, но пока очень запутан в процессе. Подскажите, пожалуйста, какие районы сейчас самые перспективные для инвестиций, и стоит ли ориентироваться на жилье у моря или в более тихих частях? Меня особенно волнуют юридические аспекты сделки и процесс регистрации прав собственности для иностранца. Есть ли какие-то подводные камни, о которых мне обязательно нужно знать до того, как я начну смотреть конкретные объекты? Буду благодарен за любой опыт от тех, кто уже покупал здесь.</p>
+                <div class="tags">
+                    <span class="tag">Обзор</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Инвестиции</span><span class="tag">Покупка</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Trinity_M</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 09:36</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1918.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-blagoevgrade-kuda-luchshe-vkladyvat-dengi-i-na-chto-obratit-vnimanie.html">Покупка квартиры в Благоевграде: куда лучше вкладывать деньги и на что обратить внимание?</a></h2>
+                <p class="post-desc">Привет всем! Планирую переезд и рассматриваю покупку недвижимости в Благоевграде. Бюджет у меня средний, и я не знаю, с чего начать поиск. Интересует, какие районы сейчас наиболее перспективны для инвестиций, и стоит ли смотреть только на центр? Особенно интересует вопрос с юридической чистотой сделок и какими банками лучше работать. Спасибо заранее за советы от тех, кто уже покупал здесь жилье!</p>
+                <div class="tags">
+                    <span class="tag">Благоевград</span><span class="tag">недвижимость</span><span class="tag">инвестиции</span><span class="tag">покупка жилья</span><span class="tag">Болгария</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> CodeGhost</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 05:27</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1458.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/investitsii-v-borovtse-chto-uchest-pri-pokupke-pervogo-obekta.html">Инвестиции в Боровце: что учесть при покупке первого объекта?</a></h2>
+                <p class="post-desc">Планирую купить дом или дачу в Боровце, но это моя первая серьезная инвестиция в Болгарии. Очень волнуюсь по поводу юридических моментов и процесса оформления документов. Могли бы поделиться опытом, на что обратить особое внимание при выборе участка или готового дома? Особенно интересует, как лучше проверить чистоту сделки и какие налоги мне стоит учесть. Есть ли сейчас какие-то «подводные камни» на рынке, о которых не пишут в объявлениях? Буду благодарен за любой практический совет от тех, кто уже через это прошел.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Недвижимость</span><span class="tag">Боровце</span><span class="tag">Инвестиции</span><span class="tag">Покупка дома</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Elena_V</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 14:38</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 14 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1774.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/kak-kupit-kvartiru-v-bolgarii-napriamuiu-minuia-rieltorov.html">Как купить квартиру в Болгарии напрямую, минуя риелторов?</a></h2>
+                <p class="post-desc">Планирую покупку жилья в Болгарии и очень хочу избежать работы с посредниками. Мне кажется, что через агентов я переплачу или получу неполную информацию. Кто-нибудь сталкивался с покупкой недвижимости напрямую у владельца или через местные базы данных? Какие подводные камни мне стоит знать при такой сделке, особенно касательно юридической чистоты документов? Буду очень благодарен за реальный опыт и советы по поиску надежных продавцов.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">недвижимость</span><span class="tag">покупка</span><span class="tag">без посредников</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> TechNinja</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 07:56</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/394.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-nesebre-na-chto-obratit-vnimanie-krome-tseny.html">Покупка квартиры в Несебре: на что обратить внимание, кроме цены?</a></h2>
+                <p class="post-desc">Планирую купить небольшую квартиру в Несебре, чтобы использовать ее как летнюю дачу. Я уже изучил цены на рынке, но меня очень волнуют юридические моменты. Подскажите, пожалуйста, какие подводные камни могут возникнуть при сделке с местными продавцами? Нужно ли обязательно нанимать болгарского юриста и как проверить чистоту документов на объект? Также интересно узнать, какие районы в Несебре сейчас наиболее перспективны для инвестиций и какой налог нужно учитывать при оформлении владения.</p>
+                <div class="tags">
+                    <span class="tag">Несебре</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Покупка жилья</span><span class="tag">Инвестиции</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Qwerty</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 05:53</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/7856.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/novichok-pomogite-razobratsia-s-pokupkoi-kvartiry-v-varne-chto-vazhnee-vsego.html">Новичок: Помогите разобраться с покупкой квартиры в Варне - что важнее всего?</a></h2>
+                <p class="post-desc">Здравствуйте! Планирую переезд и покупку недвижимости в Варне, но я полный новичок в болгарском рынке. Подскажите, пожалуйста, на что мне обратить особое внимание при выборе района? Стоит ли смотреть в сторону центра или лучше выбрать более тихие пригороды? Меня очень волнует юридическая сторона вопроса - какие документы нужно проверить, чтобы избежать проблем с собственностью? И, конечно, какой сейчас реальный диапазон цен за хорошую студию, чтобы не ошибиться с бюджетом. Буду очень благодарен за любой опыт и советы от местных или тех, кто уже покупал там.</p>
+                <div class="tags">
+                    <span class="tag">Варна</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Покупка</span><span class="tag">Советы</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Dev_Ops</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 02:52</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/13.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/planiruiu-pokupku-doma-v-skalsko-na-chto-obratit-vnimanie-novichku.html">Планирую покупку дома в Скалско - на что обратить внимание новичку?</a></h2>
+                <p class="post-desc">Здравствуйте! Я только начинаю изучать вопрос покупки недвижимости в Болгарии, и Скалско меня очень заинтересовало из-за его расположения и атмосферы. Мой бюджет средний, и я ищу не инвестицию, а место для жизни. Подскажите, пожалуйста, какие риски мне стоит учесть при покупке? Особенно интересует вопрос юридической чистоты сделки и состояние инфраструктуры. Стоит ли рассчитывать на хорошую связь и доступность медицинских услуг в этом районе? Буду очень благодарен за любой опыт реальных владельцев!</p>
+                <div class="tags">
+                    <span class="tag">Скалско</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Покупка дома</span><span class="tag">Советы</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Frodo_B</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 22:28</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/3079.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/vnzh-po-pokupke-nedvizhimosti-v-bolgarii-kakie-podvodnye-kamni-i-realno-li-eto.html">ВНЖ по покупке недвижимости в Болгарии: какие подводные камни и реально ли это?</a></h2>
+                <p class="post-desc">Планирую переезд в Болгарию и рассматриваю вариант получения ВНЖ через покупку жилья. Мне кажется, что процесс очень сложный и я не понимаю, какие документы нужны и какой реальный срок рассмотрения. Подскажите, пожалуйста, сталкивался ли кто-нибудь с этим? Интересует не только сам процесс, но и налоговые обязательства и какие нюансы нужно учесть на этапе оформления. Есть ли сейчас какие-то более простые или быстрые альтернативы, кроме прямой покупки? Буду очень благодарен за реальный опыт от тех, кто уже это сделал.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">ВНЖ</span><span class="tag">Недвижимость</span><span class="tag">Иммиграция</span><span class="tag">Переезд</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Aragorn_K</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 07:24</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/7856.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-sofii-kakie-raiony-luchshe-vsego-vybrat-dlia-zhizni-i-investitsii.html">Покупка квартиры в Софии: какие районы лучше всего выбрать для жизни и инвестиций?</a></h2>
+                <p class="post-desc">Привет всем! Планирую переезд в Софию и очень хочу купить квартиру, но совершенно потерялся в выборе района. Я ищу что-то балансирующее между хорошей инфраструктурой, безопасностью и потенциалом роста стоимости. Стоит ли смотреть в районы вроде Витоша или лучше рассмотреть что-то ближе к центру, но чуть дешевле? Какие подводные камни мне стоит знать при покупке, особенно касательно юридических вопросов и налогов для иностранцев? Буду очень благодарен за любой опыт от тех, кто уже жил или покупал там недвижимость.</p>
+                <div class="tags">
+                    <span class="tag">София</span><span class="tag">Недвижимость</span><span class="tag">Покупка</span><span class="tag">Болгария</span><span class="tag">Инвестиции</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stalker</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 00:45</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/3061.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/investory-kakoi-prognoz-po-nedvizhimosti-bolgarii-na-2026-god.html">Инвесторы: какой прогноз по недвижимости Болгарии на 2026 год?</a></h2>
+                <p class="post-desc">Планирую крупную инвестицию в Болгарию, но меня очень беспокоит долгосрочная стабильность рынка. Сейчас цены кажутся очень привлекательными, но я не уверен, что этот рост сохранится до 2026 года. Как вы считаете, какие внешние факторы (например, интеграция с ЕС или изменения в кредитовании) могут повлиять на стоимость квадратного метра? Интересуют не только общие прогнозы, но и конкретные районы или типы жилья, которые, по вашему мнению, сохранят высокую ликвидность в долгосрочной перспективе. Буду благодарен за любой опыт или экспертное мнение.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Недвижимость</span><span class="tag">Инвестиции</span><span class="tag">Прогноз 2026</span><span class="tag">Рынок</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> SilverSurfer</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 22:23</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/64.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/investitsii-v-elitnuiu-nedvizhimost-bolgarii-chto-seichas-samoe-perspektivnoe-napravlenie.html">Инвестиции в элитную недвижимость Болгарии: что сейчас самое перспективное направление?</a></h2>
+                <p class="post-desc">Планирую крупную инвестицию в элитную недвижимость в Болгарии, но рынок очень большой и запутанный. Меня интересует не просто цена, а потенциал роста и ликвидность объекта в долгосрочной перспективе. Стоит ли мне рассматривать побережье Черного моря, или лучше обратить внимание на горные курорты и города, вроде Софии или Варны? Какие районы сейчас наиболее привлекательны для покупки премиум-объектов, и какие юридические нюансы мне стоит учесть, чтобы избежать проблем с документацией?</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Инвестиции</span><span class="tag">Элитная недвижимость</span><span class="tag">Куда инвестировать</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> SolarFlare</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 17:40</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/3232.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-nedvizhimosti-v-bolgarii-u-moria-chto-realno-nuzhno-znat-novichku.html">Покупка недвижимости в Болгарии у моря: что реально нужно знать новичку?</a></h2>
+                <p class="post-desc">Планирую покупку виллы в Болгарии, желательно в районе Золотого Пляжа или Солнечного Берега. Я понимаю, что это инвестиция, но очень боюсь попасть в мошенническую схему или столкнуться с юридическими проблемами. Можете ли вы посоветовать, на какие аспекты мне обратить особое внимание при выборе агента и самого объекта? Меня интересуют не только цены, но и вопросы с документацией, налогообложением и перспективами аренды. Какие районы сейчас наиболее ликвидные для долгосрочной жизни, а не только для летнего отдыха?</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Недвижимость</span><span class="tag">Море</span><span class="tag">Инвестиции</span><span class="tag">Покупка</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Vortex_77</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 07:57</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/23724.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pomogite-razobratsia-pokupka-kvartiry-v-bolgarii-dlia-zhizni-ili-dlia-investitsii.html">Помогите разобраться: покупка квартиры в Болгарии для жизни или для инвестиций?</a></h2>
+                <p class="post-desc">Планирую переезд в Болгарию и очень интересуюсь вопросом покупки недвижимости. Нашел несколько вариантов как в Софии, так и на побережье, но не понимаю, что выбрать. Стоит ли брать квартиру в новом ЖК, который пока только строится, или лучше рассмотреть готовый объект в более старом, но уже обжитом районе? Особенно интересует юридическая сторона вопроса и какие налоги придется платить резиденту. Есть ли у кого-то опыт жизни в Болгарии, кто может поделиться реальными отзывами о рынке и процессах оформления?</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">недвижимость</span><span class="tag">покупка</span><span class="tag">инвестиции</span><span class="tag">переезд</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> CyberPunk_2077</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 05:42</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/20664.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pomogite-vybrat-5-zvezdochnyi-otel-v-bolgarii-vse-vkliucheno-na-semiu.html">Помогите выбрать 5-звездочный отель в Болгарии (Все включено) на семью!</a></h2>
+                <p class="post-desc">Планируем поездку в Болгарию на конец лета и очень хотим расслабиться в формате "все включено". Ищем именно 5-звездочные варианты, где будет и для взрослых, и для детей что-то интересное. Подскажите, пожалуйста, на каком побережье лучше остановиться - в Солнечных Берегах или в более уединенных местах? Важно, чтобы отель был не только красивым, но и имел хорошую анимацию и не был переполнен туристами. Есть ли у вас опыт проживания в конкретных комплексах? Буду благодарна за любые советы и отзывы о реальном уровне сервиса.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Отели</span><span class="tag">Все включено</span><span class="tag">Отдых с детьми</span><span class="tag">5 звезд</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Anna_Smart</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 18:47</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/542.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/planiruiu-kupit-dom-v-bolgarii-na-chto-obratit-vnimanie-krome-tseny.html">Планирую купить дом в Болгарии: на что обратить внимание, кроме цены?</a></h2>
+                <p class="post-desc">Привет всем! Мы с женой долго мечтали переехать в Болгарию и рассматриваем покупку дома. Насколько я понимаю, процесс покупки достаточно сложный, и мне кажется, что цена - это только вершина айсберга. Подскажите, пожалуйста, какие юридические нюансы нужно учесть? Стоит ли нанимать местного юриста с самого начала? И какой регион лучше выбрать для первой покупки, чтобы было и красиво, и относительно спокойно для жизни? Буду очень благодарен за любой опыт и советы!</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Купить дом</span><span class="tag">Недвижимость</span><span class="tag">Покупка</span><span class="tag">Советы</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Ivan_Drago</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 07:20</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/2223.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-bolgarii-chto-uchest-novichku-i-kakie-riski-est.html">Покупка квартиры в Болгарии: что учесть новичку и какие риски есть?</a></h2>
+                <p class="post-desc">Планирую переезд и покупку жилья в Болгарии, но пока очень запутан в процессе. Не знаю, с чего начать: с выбора региона, с юридической проверки или с финансового планирования. Можете ли вы подсказать, на что обратить особое внимание при выборе объекта, помимо цены? Особенно интересует вопрос с документацией и налоговыми обязательствами для иностранцев. Было ли у кого-то из вас подобный опыт, и что бы вы посоветовали в первую очередь?</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Недвижимость</span><span class="tag">Покупка жилья</span><span class="tag">Иммиграция</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Phantom</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 16.01.2025 23:59</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/64.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/kto-arendoval-kvartiru-v-bolgarii-cherez-olx-delius-opytom-i-preduprezhdeniiami.html">Кто арендовал квартиру в Болгарии через OLX? Делюсь опытом и предупреждениями!</a></h2>
+                <p class="post-desc">Ребята, планирую переезд в Софию и наткнулся на кучу объявлений об аренде на OLX. Поделитесь, пожалуйста, вашим реальным опытом? Стоит ли доверять таким предложениям или это ловушка? Мне кажется, что там очень много мошенников, которые выставляют красивые фото, но сами квартиры не существуют. Кто-то знает, как лучше проверить документы и сам район, чтобы не попасть впросак? Буду очень благодарен за любые советы, чтобы не потерять деньги и нервы.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Аренда</span><span class="tag">Недвижимость</span><span class="tag">OLX</span><span class="tag">Переезд</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Gandalf_W</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 16.01.2025 21:53</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/2138.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/novichok-kak-pravilno-vybrat-i-kupit-kvartiru-na-zolotykh-peskakh.html">Новичок: Как правильно выбрать и купить квартиру на Золотых Песках?</a></h2>
+                <p class="post-desc">Планирую покупку недвижимости в Болгарии, конкретно на Золотых Песках. Это мой первый опыт покупки за границей, и меня немного пугает процесс. Подскажите, пожалуйста, какие подводные камни могут встретиться при оформлении документов и регистрации права собственности? Стоит ли обращаться к местному риелтору или лучше найти юриста с нуля? И какой район в самой Золотых Песках будет оптимален для жизни, а не только для отпуска? Буду благодарен за любой опыт, который сможете поделиться.</p>
+                <div class="tags">
+                    <span class="tag">Золотые Пески</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Покупка</span><span class="tag">Советы</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Aragorn_K</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 15.01.2025 23:23</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/48.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-zhilia-v-albene-na-chto-obratit-vnimanie-krome-tseny.html">Покупка жилья в Албене: на что обратить внимание кроме цены?</a></h2>
+                <p class="post-desc">Планирую покупку квартиры или дома в Албене в ближайшие месяцы. Много информации на сайтах, но очень сложно понять, что действительно важно для покупателя. Подскажите, пожалуйста, какие районы лучше выбрать, если я не из местных? Кроме очевидных вещей, вроде состояния дома, меня волнует юридическая чистота сделки и инфраструктура. Стоит ли смотреть варианты подальше от пляжа, но в более тихих местах? Буду очень благодарен за реальный опыт тех, кто уже покупал или арендовал жилье в этом регионе.</p>
+                <div class="tags">
+                    <span class="tag">Албена</span><span class="tag">недвижимость</span><span class="tag">Болгария</span><span class="tag">покупка жилья</span><span class="tag">советы</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> SilverSurfer</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 15.01.2025 22:12</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/3872.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/planiruiu-pokupku-nedvizhimosti-v-biale-s-chego-nachat-i-kakie-podvodnye-kamni-nuzhno-znat.html">Планирую покупку недвижимости в Бяле. С чего начать и какие подводные камни нужно знать?</a></h2>
+                <p class="post-desc">Здравствуйте! Я только начал изучать вопрос покупки жилья в Болгарии, а конкретно - в Бяле. Мне очень нравится атмосфера и потенциал региона, но я совершенно не понимаю процесса. Можете ли вы подсказать, с чего лучше начать: с поиска агента, с юридической консультации или с изучения рынка? Меня особенно волнует вопрос с документацией и налоговыми обязательствами для иностранца. Есть ли какие-то районы в Бяле, которые считаются более ликвидными для инвестиций? Буду очень благодарен за любой опыт от тех, кто уже через это прошел.</p>
+                <div class="tags">
+                    <span class="tag">Бяле</span><span class="tag">Недвижимость</span><span class="tag">Болгария</span><span class="tag">Покупка жилья</span><span class="tag">Инвестиции</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> LuckyStrike</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 15.01.2025 10:02</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1727.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pomogite-otsenit-stoimost-kvartiry-v-novom-zhk-v-urgenche-kakie-riski.html">Помогите оценить стоимость квартиры в новом ЖК в Ургенче, какие риски?</a></h2>
+                <p class="post-desc">Планирую покупку двухкомнатной квартиры в одном из новых жилых комплексов в Ургенче. Я нашла несколько вариантов, но очень сомневаюсь в реальной рыночной стоимости. Подскажите, пожалуйста, как правильно провести независимую оценку? Кроме цены, меня волнует вопрос с инфраструктурой и юридической чистотой сделки. Стоит ли доверять только застройщикам или лучше обратиться к местным риелторам, которые хорошо знают рынок? Буду очень признательна за любой опыт и совет.</p>
+                <div class="tags">
+                    <span class="tag">недвижимость</span><span class="tag">Ургенч</span><span class="tag">покупка</span><span class="tag">квартира</span><span class="tag">оценка</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> WildCat</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 15.01.2025 02:14</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/126.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-varne-stoit-li-zhdat-padeniia-tsen-ili-luchshe-brat-seichas.html">Покупка квартиры в Варне: стоит ли ждать падения цен или лучше брать сейчас?</a></h2>
+                <p class="post-desc">Планирую переезд в Болгарию и рассматриваю Варну как вариант для покупки первой недвижимости. Мне очень важно понять текущую ситуацию на рынке. Я нашел несколько предложений, но не уверен, насколько реальны указанные цены. Кто уже купил жилье в Варне, подскажите, пожалуйста, есть ли сейчас какие-то риски или наоборот, какие перспективы роста? И какой район лучше выбрать для долгосрочной аренды, чтобы не было проблем с поиском арендаторов?</p>
+                <div class="tags">
+                    <span class="tag">Варна</span><span class="tag">Недвижимость</span><span class="tag">Инвестиции</span><span class="tag">Болгария</span><span class="tag">Покупка</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> CyberQueen</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.01.2025 05:54</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/1393.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/investitsii-v-bolgarii-chto-seichas-bolee-vygodno-kvartira-v-sofii-ili-dacha-na-poberezhe.html">Инвестиции в Болгарии: что сейчас более выгодно - квартира в Софии или дача на побережье?</a></h2>
+                <p class="post-desc">Планирую серьезные инвестиции в болгарскую недвижимость, но очень запутался в выборе направления. С одной стороны, меня привлекает стабильный рост в крупных городах, например, Софии, где выше ликвидность. С другой стороны, хочется рассмотреть вариант с арендой в туристических зонах, типа курортов Черного моря. У кого-нибудь есть опыт покупки в разных регионах? Стоит ли сейчас рассматривать покупку земли или лучше сосредоточиться на готовом жилье? Буду благодарен за реальные мнения и советы по юридическим аспектам сделок.</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Недвижимость</span><span class="tag">Инвестиции</span><span class="tag">Куда вложить</span><span class="tag">София</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Ksenia_Neo</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 13.01.2025 21:19</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/2452.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/investitsii-v-kommercheskuiu-nedvizhimost-bolgarii-chto-realno-vygodno-pokupat-seichas.html">Инвестиции в коммерческую недвижимость Болгарии: что реально выгодно покупать сейчас?</a></h2>
+                <p class="post-desc">Планирую в ближайшее время инвестировать в коммерческую недвижимость в Болгарии, но рынок кажется мне очень неоднозначным. Меня интересуют конкретные районы, где сейчас наблюдается рост спроса, например, в сфере логистики или малого бизнеса. Стоит ли сейчас рассматривать покупку офисных площадей или лучше сосредоточиться на складских комплексах? Буду очень благодарен за реальный опыт тех, кто уже покупал или сдавался в аренду коммерческие объекты в стране. Какие подводные камни нужно учитывать при оформлении сделки?</p>
+                <div class="tags">
+                    <span class="tag">Болгария</span><span class="tag">Коммерческая недвижимость</span><span class="tag">Инвестиции</span><span class="tag">Бизнес</span><span class="tag">Инвестиции</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> CodeGhost</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 13.01.2025 16:42</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/6.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/pomogite-vybrat-nadezhnye-saity-dlia-poiska-nedvizhimosti-v-bolgarii.html">Помогите выбрать надежные сайты для поиска недвижимости в Болгарии?</a></h2>
+                <p class="post-desc">Планирую покупку квартиры в Софии, но меня немного пугает огромное количество ресурсов. Я нашла несколько сайтов, но не понимаю, какие из них самые актуальные и где можно найти проверенную информацию. Есть ли у кого-то опыт работы с болгарскими порталами? Стоит ли доверять только крупным агрегаторам, или лучше смотреть локальные агентства? Буду очень благодарна за советы по выбору надежной площадки, чтобы не потратить время зря.</p>
+                <div class="tags">
+                    <span class="tag">недвижимость</span><span class="tag">Болгария</span><span class="tag">покупка</span><span class="tag">сайты</span><span class="tag">София</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Gollum_S</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 13.01.2025 05:11</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <img src="https://bulgarianest.com/forum/ava/126.jpg" alt="Avatar" class="post-avatar">
+            <div class="post-info">
+                <h2 class="post-title"><a href="https://bulgarianest.com/forum/posts/novichok-kak-pravilno-arendovat-kvartiru-v-sofii-i-na-chto-obratit-vnimanie.html">Новичок: Как правильно арендовать квартиру в Софии и на что обратить внимание?</a></h2>
+                <p class="post-desc">Планирую переезд в Болгарию через полгода и мне нужно найти жилье в Софии. Я пока не знаю, с чего начать поиск, и очень боюсь попасть на уловки мошенников. Подскажите, пожалуйста, какие районы лучше выбрать для семьи с детьми, и какой максимальный бюджет мне стоит закладывать за аренду? Также очень важно понять, какие документы нужны для заключения договора и как лучше всего проверить реальность объявления, чтобы не потерять деньги.
+</p>
+                <div class="tags">
+                    <span class="tag">София</span><span class="tag">Аренда</span><span class="tag">Болгария</span><span class="tag">Жилье</span><span class="tag">Переезд</span>
+                </div>
+                <div class="post-meta">
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Flash_007</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 12.01.2025 12:55</span>
+                    <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 ответов</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <div class="pagination">
+        
+        
+        <a href="https://bulgarianest.com/forum/" class="page-link ">1</a>
+        
+        
+        <a href="https://bulgarianest.com/forum/page_2.html" class="page-link ">2</a>
+        
+        
+        <a href="https://bulgarianest.com/forum/page_3.html" class="page-link active">3</a>
+        
+        
+        <a href="https://bulgarianest.com/forum/page_4.html" class="page-link ">4</a>
+        
+        
+        <a href="https://bulgarianest.com/forum/page_5.html" class="page-link ">5</a>
+        
+    </div>
+    
+    
+            </main>
+            
+            <aside class="sidebar">
+                <div class="card">
+                    <h3 class="widget-title">Статистика форума</h3>
+                    <ul class="stat-list">
+                        <li><span>Темы:</span> <span>129</span></li>
+                        <li><span>Сообщения:</span> <span>1801</span></li>
+                        <li><span>Участники:</span> <span>289</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="widget-title">Случайные темы</h3>
+                    <ul class="random-links">
+                        
+                        <li><a href="https://bulgarianest.com/forum/posts/pomogite-podobrat-variant-gde-v-bolgarii-naiti-nedorogoe-zhile-u-moria.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Помогите подобрать вариант: где в Болгарии найти недорогое жилье у моря?</a></li>
+                        
+                        <li><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-ruse-na-chto-obratit-vnimanie-pri-proverke-dokumentov.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Покупка квартиры в Русе: на что обратить внимание при проверке документов?</a></li>
+                        
+                        <li><a href="https://bulgarianest.com/forum/posts/investitsii-v-elitnuiu-nedvizhimost-bolgarii-chto-seichas-samoe-perspektivnoe-napravlenie.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Инвестиции в элитную недвижимость Болгарии: что сейчас самое перспективное направление?</a></li>
+                        
+                        <li><a href="https://bulgarianest.com/forum/posts/pokupka-kvartiry-v-burgase-chto-uchest-novichku-i-kakie-raiony-luchshe-dlia-zhizni.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Покупка квартиры в Бургасе: что учесть новичку и какие районы лучше для жизни?</a></li>
+                        
+                        <li><a href="https://bulgarianest.com/forum/posts/pokupka-doma-u-moria-v-bolgarii-dlia-pensii-na-chto-obratit-vnimanie-krome-tseny.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Покупка дома у моря в Болгарии для пенсии: на что обратить внимание, кроме цены?</a></li>
+                        
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h4 class="footer-title"><svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> TechForum</h4>
+                    <p class="footer-text">&copy; 2026 Все права защищены.<br><a href="mailto:admin@bulgarianest.com">admin@bulgarianest.com</a></p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Правила форума</h4>
+                    <p class="footer-text">Спам, оскорбления и флуд строго запрещены.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Политика</h4>
+                    <p class="footer-text">Мы используем cookie-файлы для улучшения работы сайта</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    

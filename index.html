@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продажа недвижимости в Болгарии | BulgarianEst</title>
+    <meta name="description" content="BulgarianEst - ваш надежный партнер в сфере продажи недвижимости в Болгарии. Поможем купить квартиру, дом или коммерческую недвижимость выгодно и безопасно.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bulgarianest.com/">
+    <link rel="icon" href="https://bulgarianest.com/favicon.ico" type="image/x-icon">
+    <style>
+        :root {
+            --c-dark: #2e4057;
+            --c-green-muted: #66a182;
+            --c-green-light: #caffb9;
+            --c-green-bright: #aef78e;
+            --c-yellow-green: #c0d461;
+        }
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: var(--c-dark); background-color: #f9fbf9; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: var(--c-dark); color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.8rem; font-weight: bold; color: var(--c-green-bright); text-decoration: none; display: flex; align-items: center; gap: 10px; }
+        nav { display: flex; gap: 20px; flex-wrap: wrap; }
+        nav a { color: white; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: var(--c-yellow-green); }
+        .hero { background: linear-gradient(rgba(46,64,87,0.7), rgba(46,64,87,0.7)), url('https://picsum.photos/seed/bulgaria-hero/1920/1080') center/cover; color: white; padding: 120px 0; text-align: center; }
+        .hero h1 { color: var(--c-green-light); font-size: 3rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .btn { display: inline-block; background: var(--c-yellow-green); color: var(--c-dark); padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background 0.3s; }
+        .btn:hover { background: var(--c-green-bright); }
+        .section { padding: 80px 0; }
+        .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 50px; color: var(--c-dark); }
+        .bg-light { background: var(--c-green-light); }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-bottom: 5px solid var(--c-green-muted); transition: transform 0.3s; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-body { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
+        .card-title { font-size: 1.3rem; font-weight: bold; margin-bottom: 15px; color: var(--c-dark); }
+        .card-body p { flex-grow: 1; }
+        .seo-block { background: white; padding: 50px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-left: 8px solid var(--c-green-muted); margin: 60px 0; font-size: 1.05rem; }
+        .seo-block h2 { color: var(--c-dark); margin-top: 0; font-size: 2rem; margin-bottom: 25px; }
+        .seo-block a { color: var(--c-green-muted); font-weight: bold; text-decoration: underline; }
+        .seo-block a:hover { color: var(--c-dark); }
+        .testimonials { background: var(--c-dark); color: white; padding: 80px 0; }
+        .testimonials .section-title { color: var(--c-green-light); }
+        .testimonial-card { background: rgba(255,255,255,0.1); padding: 30px; border-radius: 10px; font-style: italic; }
+        .testimonial-author { margin-top: 20px; font-weight: bold; color: var(--c-yellow-green); font-style: normal; }
+        footer { background: var(--c-dark); color: white; padding: 50px 0 20px; border-top: 5px solid var(--c-green-muted); }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 40px; }
+        .footer-col h3 { color: var(--c-green-bright); margin-bottom: 20px; }
+        .footer-col ul { list-style: none; padding: 0; margin: 0; }
+        .footer-col ul li { margin-bottom: 10px; }
+        .footer-col ul li a { color: #ddd; text-decoration: none; transition: color 0.3s; }
+        .footer-col ul li a:hover { color: var(--c-yellow-green); }
+        .copyright { text-align: center; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); color: #aaa; }
+        @media (max-width: 768px) {
+            .hero { padding: 80px 0; }
+            .hero h1 { font-size: 2rem; }
+            nav { flex-direction: column; gap: 10px; align-items: center; margin-top: 15px; }
+            .header-inner { flex-direction: column; align-items: center; }
+            .seo-block { padding: 30px 20px; }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "BulgarianEst",
+      "image": "https://picsum.photos/seed/bulgaria-hero/1920/1080",
+      "@id": "https://bulgarianest.com/",
+      "url": "https://bulgarianest.com/",
+      "telephone": "+359888000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Александровска 15",
+        "addressLocality": "Бургас",
+        "addressRegion": "Бургас",
+        "postalCode": "8000",
+        "addressCountry": "BG"
+      }
+    }
+    </script>
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <a href="https://bulgarianest.com/" class="logo">
+            <img src="https://bulgarianest.com/favicon.ico" alt="BulgarianEst Logo">
+            BulgarianEst
+        </a>
+        <nav>
+            <a href="https://bulgarianest.com/">Главная</a>
+            <a href="#services">Услуги</a>
+            <a href="#about">О нас</a>
+            <a href="#blog">Блог</a>
+            <a href="#contacts">Контакты</a>
+            <a href="https://bulgarianest.com/forum/">Форум</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Ваш дом мечты на берегу Черного моря</h1>
+        <p>Профессиональная помощь в подборе, покупке и оформлении недвижимости в лучших регионах Болгарии. Надежно, безопасно и выгодно.</p>
+        <a href="#services" class="btn">Смотреть услуги</a>
+    </div>
+</section>
+
+<section id="services" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Наши Услуги</h2>
+        <div class="grid-3">
+            <div class="card">
+                <img src="https://picsum.photos/seed/service1/400/250" alt="Подбор недвижимости">
+                <div class="card-body">
+                    <h3 class="card-title">Подбор объектов</h3>
+                    <p>Индивидуальный поиск квартир, домов и коммерческих помещений по вашим критериям и бюджету.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/seed/service2/400/250" alt="Юридическое сопровождение">
+                <div class="card-body">
+                    <h3 class="card-title">Юридическое сопровождение</h3>
+                    <p>Полная проверка чистоты сделки, подготовка документов и помощь в оформлении права собственности.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/seed/service3/400/250" alt="Послепродажное обслуживание">
+                <div class="card-body">
+                    <h3 class="card-title">Послепродажный сервис</h3>
+                    <p>Помощь с ремонтом, меблировкой, оплатой налогов и сдачей вашей недвижимости в аренду.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="seo-block">
+            <h2>Инвестиции и комфортная жизнь</h2>
+            <p>Болгария — это удивительная и гостеприимная страна, которая ежегодно привлекает тысячи людей со всего мира своим невероятно мягким климатом, живописными природными пейзажами, богатой многовековой культурой и, конечно же, весьма доступными ценами на жилье. Если вашей главной целью является <strong>Недвижимость в Болгарии</strong>, вы находитесь на абсолютно правильном пути к максимально выгодным инвестициям и комфортной, размеренной жизни у теплого моря или в заснеженных горах.</p>
+            
+            <p>Покупка квартиры, виллы или небольшого дома за границей всегда сопровождается множеством закономерных вопросов и сомнений. С чего именно стоит начать этот процесс? Как правильно выбрать надежного и проверенного застройщика среди множества предложений? Как грамотно и безопасно оформить все необходимые юридические документы? Наша специализированная компания BulgarianEst готова стать вашим верным и надежным проводником на всем этом непростом пути. Мы предлагаем своим клиентам полный спектр профессиональных услуг по индивидуальному подбору, тщательной юридической проверке и итоговому оформлению объектов любой сложности.</p>
+            
+            <p>Современный болгарский рынок предлагает покупателям поистине огромное разнообразие вариантов на любой вкус и кошелек. Вы можете выбрать компактную и уютную студию на популярном курорте Солнечный Берег, роскошные и просторные апартаменты в престижном Святом Власе, большой семейный дом в тихой и экологически чистой деревне или же перспективный коммерческий объект в динамично развивающейся столице — городе София. Каждый из этих регионов имеет свои уникальные и неповторимые преимущества. Например, черноморское побережье идеально подходит для незабываемого летнего отдыха и выгодной сдачи жилья в аренду многочисленным туристам, а известные горнолыжные курорты, такие как Банско или Пампорово, стабильно привлекают любителей активных зимних видов спорта со всей Европы.</p>
+            
+            <p>Многие наши постоянные клиенты рассматривают покупку зарубежного жилья не только как отличное место для сезонного отдыха, но и как надежный способ сохранения, а также приумножения своего личного капитала. Инвестиции в объекты недвижимости в Болгарии традиционно показывают стабильную и высокую доходность из года в год. Если вы ищете самые проверенные, безопасные и эксклюзивные предложения на рынке, мы настоятельно рекомендуем обратить самое пристальное внимание на услуги наших стратегических партнеров. Качественная Недвижимость в Болгарии (<a href="https://bulgarianresales.com/">https://bulgarianresales.com/</a>) — это абсолютный залог вашего душевного спокойствия и твердой уверенности в завтрашнем дне.</p>
+            
+            <p>Сама процедура оформления сделки купли-продажи в этой южной стране достаточно прозрачна, логична и понятна для большинства иностранных граждан. Однако, чтобы гарантированно избежать любых скрытых подводных камней, крайне важно заручиться профессиональной поддержкой опытных юристов и квалифицированных риелторов. Мы скрупулезно проверяем каждый предлагаемый объект на полное отсутствие скрытых обременений, коммунальных задолженностей и любых других возможных юридических проблем. Ваша личная финансовая безопасность — это наш самый главный и неоспоримый приоритет в работе.</p>
+            
+            <p>Кроме того, стоит отметить, что официальное владение болгарским жильем дает законное право на получение удобной мультивизы, а при соблюдении определенных инвестиционных условий — и полноценного вида на жительство (ВНЖ). Это, в свою очередь, открывает перед вами отличные дополнительные возможности для беспрепятственных путешествий по странам Европы и длительного, комфортного пребывания в самой стране.</p>
+            
+            <p>Подводя общий итог всему вышесказанному, можно с полной уверенностью заявить, что приобретение собственных болгарских квадратных метров — это серьезный, но исключительно позитивный шаг навстречу совершенно новым жизненным возможностям, высокому уровню комфорта и долгосрочной финансовой стабильности. Смело обращайтесь в агентство BulgarianEst, и мы с огромным удовольствием поможем воплотить вашу заветную мечту о домике у моря в реальность! Мы индивидуально подберем для вас тот самый идеальный вариант, который будет на все сто процентов соответствовать вашим личным пожеланиям, требованиям и выделенному бюджету.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2 class="section-title">Отзывы наших клиентов</h2>
+        <div class="grid-3">
+            <div class="testimonial-card">
+                <p>"Огромное спасибо команде BulgarianEst за помощь в покупке квартиры в Бургасе. Все прошло быстро, прозрачно и без лишних нервов. Рекомендую!"</p>
+                <div class="testimonial-author">— Анна С., Москва</div>
+            </div>
+            <div class="testimonial-card">
+                <p>"Искали дом для переезда на пенсию. Ребята подобрали отличный вариант в тихом поселке недалеко от моря. Юридическое оформление взяли на себя."</p>
+                <div class="testimonial-author">— Игорь и Елена, Минск</div>
+            </div>
+            <div class="testimonial-card">
+                <p>"Инвестировал в апартаменты на Солнечном Берегу. Компания не только помогла с покупкой, но и взяла объект в управление для сдачи в аренду."</p>
+                <div class="testimonial-author">— Дмитрий В., Киев</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Наш Блог</h2>
+        <div class="grid-3">
+            <div class="card">
+                <img src="https://picsum.photos/seed/blog1/400/250" alt="Как купить квартиру у моря">
+                <div class="card-body">
+                    <h3 class="card-title">Как купить квартиру у моря в Болгарии</h3>
+                    <p>Пошаговое руководство по приобретению недвижимости на побережье для иностранцев.</p>
+                    <a href="https://bulgarianest.com/post1.html" class="btn" style="margin-top: 15px; padding: 8px 15px; font-size: 0.9rem;">Читать далее</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/seed/blog2/400/250" alt="Налоги на недвижимость">
+                <div class="card-body">
+                    <h3 class="card-title">Налоги на недвижимость в Болгарии в 2026 году</h3>
+                    <p>Подробный разбор всех налогов, такс поддержки и коммунальных платежей.</p>
+                    <a href="https://bulgarianest.com/post2.html" class="btn" style="margin-top: 15px; padding: 8px 15px; font-size: 0.9rem;">Читать далее</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/seed/blog3/400/250" alt="ВНЖ в Болгарии">
+                <div class="card-body">
+                    <h3 class="card-title">ВНЖ в Болгарии при покупке недвижимости</h3>
+                    <p>Узнайте, как получить вид на жительство, став владельцем болгарских квадратных метров.</p>
+                    <a href="https://bulgarianest.com/post3.html" class="btn" style="margin-top: 15px; padding: 8px 15px; font-size: 0.9rem;">Читать далее</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/seed/blog4/400/250" alt="Топ курортов">
+                <div class="card-body">
+                    <h3 class="card-title">Топ-5 курортов для инвестиций в жилье</h3>
+                    <p>Обзор лучших локаций для покупки недвижимости с целью сдачи в аренду.</p>
+                    <a href="https://bulgarianest.com/post4.html" class="btn" style="margin-top: 15px; padding: 8px 15px; font-size: 0.9rem;">Читать далее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="contacts">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>BulgarianEst</h3>
+                <p>Ваш надежный партнер на рынке зарубежной недвижимости. Мы делаем процесс покупки простым и безопасным.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Навигация</h3>
+                <ul>
+                    <li><a href="https://bulgarianest.com/">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#blog">Блог</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Контакты</h3>
+                <ul>
+                    <li>Телефон: +359 888 000 000</li>
+                    <li>Email: info@bulgarianest.com</li>
+                    <li>Адрес: г. Бургас, ул. Александровска 15</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 BulgarianEst. Все права защищены.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
